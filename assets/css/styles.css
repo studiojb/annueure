@@ -1,0 +1,302 @@
+body {
+  /*font-family: 'Titillium Web', sans-serif;*/
+  font: 1.0em 'Titillium Web',Verdana,Arial,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.country {
+  min-height: 500px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.city {
+  min-height: 500px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+/* SECTIONS */
+
+#header {
+  padding: 40px 0px 0px;
+  height: 70px;
+  background: #87509c;
+}
+#wrapper {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 15px;
+  color: white;
+}
+
+section#presentation {
+  background: #87509c;
+  min-height: 490px;
+}
+
+section#programme {
+  background: #17c2a4;
+  min-height: 750px;
+}
+
+section div#souligne {
+  width: 100px;
+  height: 5px;
+  margin: 20px auto 0;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+section#inscription {
+  background: #3c5499;
+  min-height: 800px;
+}
+
+footer {
+  height: 110px;
+  background: #273a71;
+  color: white;
+  font-size: 1.25em;
+  text-align: center;
+  padding-top: 45px;
+}
+
+/* TYPOGRAPHIE */
+#titre {
+  float: left;
+  height: 70px;
+  width: 150px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: lighter;
+  font-style: normal;
+  color: white;
+  vertical-align: middle;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.8em;
+  padding-top: 100px;
+}
+
+h2 {
+  font-size: 2.5em;
+  padding-top: 50px;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 1.1em;
+  padding-top: 30px;
+  margin-left: 10px;
+}
+
+hr {
+border: 0;
+height: 1px;
+width: 300px;
+background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+i {
+  color: grey;
+  font-style: italic;
+  /*margin-right: 10px;*/
+}
+
+b {
+  font-weight: 700;
+  color: #3c5499;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  margin:10px 10px;
+  text-align: center;
+}
+
+.majuscule {
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+.asterix {
+  color:red;
+}
+
+/* MENU ET NAVIGATION */
+
+nav {
+  float: right;
+  margin-right: 50px;
+  width: 500px;
+  height: 70px;
+}
+nav ul {
+  display: flex;
+  width: 500px;
+  height: 40px;
+  line-height: 40px;
+  flex-direction: row;
+  justify-content: right;
+  /* margin: auto 0px; */
+  padding:0px;
+}
+nav ul li {
+  float: left;
+  background: #87509c;
+  padding: 0px 10px;
+  margin-right: 10px;
+  list-style-type: none;
+  border-radius: 0.3em;
+}
+nav ul li:hover {
+  background: #643a79;
+}
+nav ul li a {
+  display: block;
+  font-size: 1.2em;
+  text-align: center;
+  color:white;
+  /* text-transform: uppercase; */
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ASPECT + POSITIONNEMENT IMAGES, LOGOS,.. */
+
+#logo {
+  float: left;
+  width: 230px;
+  height: 70px;
+  background-image: url("../img/logo-webforce3.png");
+  /* background-size: 275px; */
+}
+
+.image {
+  width:170px;
+  height:200px;
+  position:relative;
+}
+.vignette {
+  float:left;
+  width: 23%;
+  margin: 0 1%;
+  vertical-align: bottom;
+}
+
+#technologies {
+  height:200px;
+  margin-top:50px;
+}
+
+#html5 {
+  background-image: url("../img/logo-html5.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+div#html5:hover {
+  background-image: url("../img/logo-html5.png");
+  background-size: 180px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#css3 {
+  background-image: url("../img/logo-css3.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+div#css3:hover {
+  background-image: url("../img/logo-css3.png");
+  background-size: 180px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#php {
+  background-image: url("../img/logo-php.png");
+  background-size: 170px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+div#php:hover {
+  background-image: url("../img/logo-php.png");
+  background-size: 180px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#wordpress {
+  background-image: url("../img/logo-wordpress.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+div#wordpress:hover {
+  background-image: url("../img/logo-wordpress.png");
+  background-size: 180px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.textboxpos {
+  position: absolute;
+  top:210px;
+  width: 100%;
+}
+.titretextbox {
+    color: white;
+    text-align: center;
+}
+.textbox {
+  width: 100%;
+  color: white;
+  text-align: center;
+  margin: 0px;
+  /*background-color: rgba(0, 0, 0, 0.8);*/
+  /*height: 36px;*/
+  /*padding-top:8px;*/
+}
+
+form {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  /*margin-left:700px;*/
+}
+
+label {
+  display: block;
+  margin:20px 0;
+}
+input {
+  display: block;
+  width: 100px;
+  height:32px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #666;
+  padding-left:10px;
+}
+button {
+  /*display: block;*/
+  margin-right: 10px;
+  vertical-align: middle;
+  text-align: center;
+  color:white;
+  height:70px;
+  width: 150px;
+  border-radius: 0.2em;
+  background-color: #eb7d4b;
+  border-style: none;
+  /*font-weight: bold;*/
+  font-size: 1.4em;
+  text-align: center;
+}
